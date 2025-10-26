@@ -11,8 +11,8 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 # Load API keys from environment variables
-news_api_key = os.getenv("NEWS_API_KEY", "1b2c04dae2504d2db85026ab92c89e74")
-your_api_key = os.getenv("YOUR_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTFjZDUzMTUtN2U2Ni00ZDQ1LWJjMjUtN2M3Njk4MmFjM2VhIiwidHlwZSI6ImFwaV90b2tlbiJ9.eN91sGZVsyxS-kp42bDFzytXCgnE42U17kYGBYsRReI")
+news_api_key = os.getenv("NEWS_API_KEY", "news_api_key")
+your_api_key = os.getenv("YOUR_API_KEY", "your_api_key")
 
 def speak(text):
     engine.say(text)
