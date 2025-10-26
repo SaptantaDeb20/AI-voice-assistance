@@ -29,7 +29,7 @@ def aiprocess(command):
 
     # Set up headers with your API key
     headers = {
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTFjZDUzMTUtN2U2Ni00ZDQ1LWJjMjUtN2M3Njk4MmFjM2VhIiwidHlwZSI6ImFwaV90b2tlbiJ9.eN91sGZVsyxS-kp42bDFzytXCgnE42U17kYGBYsRReI",
+        "Authorization": "Bearer your_api_key",
         "Content-Type": "application/json"
     }
 
